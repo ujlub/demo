@@ -9,6 +9,6 @@ public class SampleController {
 
     @GetMapping("/")
     public String index(HttpServletRequest request) {
-        return "main";
+        return "main2";
     }
 }
